@@ -4,10 +4,10 @@
 # yum update
 
 #turn off selinux
-nano /etc/selinux/config
-...
-SELINUX=disabled
-...
+#nano /etc/selinux/config
+#...
+#SELINUX=disabled
+#...
 
 # Stop MySQL
 systemctl stop mysqld
